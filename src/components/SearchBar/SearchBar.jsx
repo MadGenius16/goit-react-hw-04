@@ -36,7 +36,7 @@ const SearchBar = ({onSubmit}) => {
     className={css.button} 
     type="submit"><FcSearch />
     </button>
-    <Toaster toastOptions={{style: {background: "red", color: "white"}}}/>
+    <Toaster  toastOptions={{style: {background: "red", color: "white"}}}/>
   </Form>
 </header>
     </Formik>

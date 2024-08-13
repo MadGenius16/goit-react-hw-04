@@ -52,7 +52,7 @@ useEffect(()=>{
     setArticles([])
   }
 
-    const loadMore =async () =>{
+    const loadMore = async () =>{
       setPage(page+1)
     }
 

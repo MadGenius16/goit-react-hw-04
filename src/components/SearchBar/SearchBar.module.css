@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   background-color: rgb(54, 14, 234);
+  border-radius: 6px;
 }
 
 .form{

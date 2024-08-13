@@ -9,8 +9,6 @@ import LoadMoreBtn from "./components/LoadMoreBtn/LoadMoreBtn";
 import ImageModal from "./components/ImageModal/ImageModal";
 
 
-
-
 function App() {
 
   const [articles, setArticles] = useState([]);
@@ -84,7 +82,6 @@ useEffect(()=>{
       isModalOpen={isModalOpen}
         closeModal={closeModal}
         targetPhoto={targetPhoto}
-    
       />
     </div>
   )
